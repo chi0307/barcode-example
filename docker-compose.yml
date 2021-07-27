@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  barcode:
+    build: .
+    container_name: barcode
+    volumes:
+      - .:/data
+    ports:
+      - 3000:3000
+    network_mode: bridge
