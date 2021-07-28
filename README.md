@@ -12,5 +12,5 @@
 - 無 Docker-compose
 
 1. sh build.sh 產生 Docker Image
-2. sh run.sh 建立 COntainer
+2. sh run.sh 建立 Container
 3. 打 http://localhost:3000/code/ABC123 會產生 ABC123 的條碼
